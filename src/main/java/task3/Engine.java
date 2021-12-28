@@ -92,7 +92,7 @@ public class Engine {
 
 
     public int getHorsepower() {
-        return horsepower;
+        return --horsepower; // Error
     }
 
 
