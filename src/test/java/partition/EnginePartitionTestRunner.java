@@ -1,4 +1,4 @@
-package task3.test.partition;
+package partition;
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;

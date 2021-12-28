@@ -1,5 +1,3 @@
-package task3.test;
-
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
@@ -58,7 +56,7 @@ public class EngineJUnitTest {
         Engine engine = instanceEngine();
         int maxSpeed = DEFAULT_MAX_SPEED + 100;
         engine.setMaxSpeed(maxSpeed);
-        assertFalse(engine.getMaxSpeed() < DEFAULT_MAX_SPEED);
+        assertTrue(engine.getMaxSpeed() > DEFAULT_MAX_SPEED);
     }
 
     @Test

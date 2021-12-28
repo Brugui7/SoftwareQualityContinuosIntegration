@@ -56,7 +56,7 @@ public class Engine {
      * @param maxSpeed int
      */
     public void setMaxSpeed(int maxSpeed) {
-        if (maxSpeed > 0) { // Error
+        if (maxSpeed < 0) {
             return;
         }
 
@@ -92,7 +92,7 @@ public class Engine {
 
 
     public int getHorsepower() {
-        return --horsepower;
+        return horsepower;
     }
 
 

@@ -1,4 +1,4 @@
-package task3.test.partition;
+package partition;
 
 import org.junit.Test;
 import task3.Engine;
